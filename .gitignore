@@ -1,0 +1,8 @@
+# 민감 정보
+group_vars/pass.yml
+project1-key.pem
+
+# 기타 무시할 수 있는 예시들
+*.log
+__pycache__/
+.env

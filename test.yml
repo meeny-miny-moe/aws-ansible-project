@@ -1,0 +1,13 @@
+---
+- name: Create 
+  hosts: localhost
+  vars_files:
+    - ./aws_vars.yml
+    - group_vars/all.yml
+    - group_vars/pass.yml
+  gather_facts: false
+  
+  roles:
+    - { role: alb-test2, tags: ["alb-test2"] }
+    - { role: alb-test, tags: ["alb-test"] }
+    
