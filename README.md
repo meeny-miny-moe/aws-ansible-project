@@ -21,12 +21,6 @@ AWS S3, CodeDeploy, GitHub 연동
 
 디렉토리 구조
 
-bash
-
-복사
-
-편집
-
 aws-ansible-project/
 
 ├── site.yml                # 메인 플레이북
